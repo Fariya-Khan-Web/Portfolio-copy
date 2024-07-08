@@ -1,0 +1,256 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+button{
+    border-radius: 5px;
+    background: rgb(253, 131, 44);
+    border: 0px;
+    padding: 18px;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#banner{
+    background: rgb(255, 248, 243);
+    background-image: url(portfolio-resources/images/developer.png) , url(portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: center left , bottom right;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h1{
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0%;
+    margin-left: 226px;
+    margin-top: 50px;
+    text-align: left;
+}
+span{
+    color: rgb(253, 131, 44);
+}
+nav ul{
+    display: flex;
+    margin-right: 230px;
+    /* margin-top: 50px; */
+}
+ul li{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 50px;
+}
+li a{
+    text-decoration: none;
+}
+#intro{
+    display: flex;
+    justify-content: space-between;
+}
+#intro div{
+    width: 585px;
+    height: 356px;
+    margin-left: 230px;
+    margin-top: 179px;
+}
+#intro div h3{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#intro div h1{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#intro div p{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    width: 1140px;
+    height: 550px;
+    background: rgb(255, 248, 243);
+    align-self: center;
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#baby{
+    width: 827px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#information{
+    display: flex;
+    justify-content: space-around;
+}
+h4{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.common{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.info{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#what{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cardbox{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-left: 230px;
+    margin-right: 230px;
+
+}
+.card{
+    width: 266px;
+    height: 376px;
+    padding: 30px;
+    /* box-shadow: 10px 10px 10px 10px lightgray; */
+}
+.card img{
+    margin-bottom: 30px;
+}
+.card h5{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.details{
+    width: 200px;
+    height: 196px;
+}
+.details p{ 
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#bhai{
+    display: flex;
+    justify-content: center;
+}
+.bhai{
+    margin: 70px;
+}
+.dabbartop{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.dabba{
+    width: 510px;
+    margin: 10px;
+}
+.matha{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.chotomatha{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.kotha{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+#Contact{
+    background-color: rgb(255, 248, 243);
+    height: 780px;
+    padding: 150px;
+    display: flex;
+}
